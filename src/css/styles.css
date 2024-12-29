@@ -1,0 +1,62 @@
+body{
+    background-color: #111111;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    border-bottom: 1px solid #6528D3;
+}
+
+header .menu-mobile{
+    display: none;
+}
+
+header .menu-desktop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 24px;
+    background-color: #130234;
+}
+
+header .menu-desktop .logos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .menu-desktop .logos img:not(.logo){
+    display: none;
+}
+
+header .menu-desktop .logos .menu-hamburguer-icon{
+    cursor: pointer;
+}
+
+header .menu-desktop .menu{
+    display: flex;
+    gap: 20px;
+}
+
+header .menu-desktop .menu a:hover {
+    color: #6528D3;
+}
+
+header .menu-desktop .cart-informations{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+header .menu-desktop .cart-informations button {
+    padding: 16px 32px;
+    background-color: #6528D3;
+    color: #FFFFFF;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+header .menu-desktop .profile-cart{
+    display: none;
+}

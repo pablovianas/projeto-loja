@@ -5,9 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Projeto e-commerce</title>
 </head>
 <body>
-    
+    <header>
+        <div class="menu-mobile">
+            <img src="./src/images/icone-fechar.png" alt="Icone para fechar o carrinho" class="close-menu-icon">
+            <div class="cart-informations">
+                <img src="./src/images/logo-ded.png" alt="Logo DED" class="logo">
+                <button>Entrar ou cadastrar-se</button>
+        
+                <a href="#" class="cart">
+                    <img src="./src/images/icone-carrinho.png" alt="Ícone para acessar o carrinho">
+                    Carrinho de compras
+                </a>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Produtos</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="#">Camisetas</a>
+                        </li>
+                        <li>
+                            <a href="#">Canecas</a>
+                        </li>
+                        <li>
+                            <a href="#">Moletons</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Perguntas frequentes</a>
+                </li>
+                <li>
+                    <a href="#">Fale conosco</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-desktop">
+            <a href="#" class="logos">
+                <img src="./src/images/menu-hamburguer.png" alt="Ícone do menu hamburguer" class="menu-hamburguer-icon">
+                <img src="./src/images/logo-ded.png" alt="Logo DED" class="logo">
+            </a>
+            <ul  class="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Produtos</a>
+                </li>
+                <li>
+                    <a href="#">Perguntas frequentes</a>
+                </li>
+                <li>
+                    <a href="#">Fale conosco</a>
+                </li>
+            </ul>
+            <div class="cart-informations">
+                <button>Entre ou cadastrar-se</button>
+                <a href="#">
+                    <img src="./src/images/icone-carrinho.png" alt="Ícone carrinho de compras">
+                </a>
+            </div>
+            <div class="profile-cart">
+                <a href="#">
+                    <img src="./src/images/icone-perfil.png" alt="Ícone de perfil" class="profile-picture">
+                </a>
+                <a href="#">
+                    <img src="./src/images/icone-carrinho.png" alt="Ícone carrinho de compras">
+                </a>
+            </div>
+        </div>
+    </header>
+    <script src="./src/js/index.js"></script>
 </body>
 </html>

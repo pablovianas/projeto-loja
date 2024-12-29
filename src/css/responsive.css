@@ -1,0 +1,84 @@
+@media(max-width: 1200px){
+    header .menu-desktop{
+        justify-content: space-between;
+    }
+    header .menu-desktop .logos img:not(.logo){
+        display: block;
+    }
+    header .menu-desktop .menu {
+        display: none;
+    }
+    header .menu-desktop .cart-informations{
+        display: none;
+    }
+    header .menu-desktop .profile-cart{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    header .menu-desktop .profile-cart .profile-picture{
+        border-right: 1px solid #6528D3;
+        padding-right: 16px;
+    }
+}
+@media(max-width: 768px){
+    header .menu-mobile.open {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #130234;
+        width: 100%;
+        min-height: calc(100vh - 2px);
+    }
+    header .menu-mobile.open ~ .menu-desktop{
+        display: none;
+    }
+    header .menu-mobile .close-menu-icon{
+        padding: 24px;
+        cursor: pointer;
+    }
+    header .menu-mobile .cart-informations{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+        padding: 16px;
+        border-bottom: 1px solid #6528D3;
+    }
+    header .menu-mobile .cart-informations .logo{
+        width: 154px;
+    }
+    header .menu-mobile .cart-informations button{
+        padding: 16px 32px;
+        background-color: #6528D3;
+        color: #FFFFFF;
+        border-radius: 4px;
+        align-self: flex-start;
+    }
+
+    header .menu-mobile .cart-informations .cart{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    header .menu-mobile .cart-informations .cart img{
+        width: 24px;
+    }
+    header .menu-mobile .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px 20px;
+        width: 100%;
+        margin-top: 48px;
+    }
+    header .menu-mobile .menu a:hover{
+        color: #6528D3;
+    }
+    header .menu-mobile .menu .sub-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px 20px;
+    }
+}
