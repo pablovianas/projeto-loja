@@ -1,6 +1,10 @@
-@media(max-width: 1200px){
+@media(max-width: 1000px){
     header .menu-desktop{
         justify-content: space-between;
+        padding: 15px;
+    }
+    header .menu-desktop .logos .logo{
+        max-width: 116px;
     }
     header .menu-desktop .logos img:not(.logo){
         display: block;
@@ -51,9 +55,11 @@
     header .menu-mobile .cart-informations button{
         padding: 16px 32px;
         background-color: #6528D3;
-        color: #FFFFFF;
+        color: #EDEDED;
         border-radius: 4px;
         align-self: flex-start;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
     }
 
     header .menu-mobile .cart-informations .cart{

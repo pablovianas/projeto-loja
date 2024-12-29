@@ -13,10 +13,9 @@ header .menu-mobile{
 
 header .menu-desktop{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding: 20px 24px;
-    background-color: #130234;
+    gap: 45px;
 }
 
 header .menu-desktop .logos{
@@ -55,6 +54,8 @@ header .menu-desktop .cart-informations button {
     color: #FFFFFF;
     border-radius: 4px;
     align-self: flex-start;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
 header .menu-desktop .profile-cart{
