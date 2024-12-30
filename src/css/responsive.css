@@ -24,6 +24,10 @@
         border-right: 1px solid #6528D3;
         padding-right: 16px;
     }
+    .container h2{
+        text-align: center;
+        margin-top: 60px;
+    }
 }
 @media(max-width: 768px){
     header .menu-mobile.open {
@@ -86,5 +90,12 @@
         flex-direction: column;
         gap: 8px;
         padding: 8px 20px;
+    }
+    .container{
+        padding-inline: 16px;
+    }
+    .container h2 {
+        text-align: start;
+        margin-top: 40px;
     }
 }

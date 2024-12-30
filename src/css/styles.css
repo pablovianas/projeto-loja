@@ -13,9 +13,11 @@ header .menu-mobile{
 
 header .menu-desktop{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 45px;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 header .menu-desktop .logos{
@@ -34,7 +36,11 @@ header .menu-desktop .logos .menu-hamburguer-icon{
 
 header .menu-desktop .menu{
     display: flex;
-    gap: 20px;
+    align-items: center;
+}
+
+header .menu-desktop .menu li{
+    padding: 20px;
 }
 
 header .menu-desktop .menu a:hover {
@@ -60,4 +66,78 @@ header .menu-desktop .cart-informations button {
 
 header .menu-desktop .profile-cart{
     display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+}
+
+.container h2{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: start;
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.container .product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.container .product-list .product{
+    color: #FFFFFF;
+    background-color: #130234;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container .product-list .product img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.container .product-list .product .product-information{
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container .product-list .product .product-information h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container .product-list .product .product-information .size{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container .product-list .product .product-information .size span{
+    color: #EDEDED;
+    font-size: 16px;
+}
+
+.container .product-list .product .product-information .price {
+    color: #6BB27C;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.container .product-list .product .product-information button {
+    color: #EDEDED;
+    font-size: 16px;
+    padding: 16px;
+    background-color: #6528D3;
+    border-radius: 4px;
 }
